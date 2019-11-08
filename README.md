@@ -14,7 +14,7 @@ optional arguments:
 
       # Specify development or production database.
 
-      # Defualt is dev
+      # Default is dev
       
       
    
