@@ -2,6 +2,7 @@
 Seeks json files and ingests their contents into mongodb, with filters and adjustments as needed
 
 TO RUN
+
 $ python ArchivedMetadataIngester.py
 
 Ingest metadata from the archive into mongodb
@@ -17,4 +18,12 @@ optional arguments:
       # Default is dev
       
       
-   
+COST CENTER CONNECTOR
+
+Get a dump of Labs and groups from our sys admin team's cost center database
+
+TO RUN
+
+$ python CostCenterConnector.py
+
+
