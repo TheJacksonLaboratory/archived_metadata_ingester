@@ -1,0 +1,85 @@
+Bult Lab	bult-lab
+Reinholdt Lab	reinholdt-lab
+Genetic Engineering Technologies	get-lab
+Munger Lab	mungerlab
+Chuang Lab	chuanglab
+Computational Sciences	compsci
+Ouyang Lab	ouyang-lab
+Ucar Lab	ucar-lab
+Weinstock Lab	weinstock-lab
+Stitzel Lab	stitzel-lab
+Cheng Lab	cheng-lab
+Williams Lab	williams-lab
+Unutmaz Lab	unutmaz-lab
+Robson Lab	robson-lab
+Single Cell Biology	robson-lab
+Oh Lab	ohlab
+Information Technology	researchit
+Hinson Lab	hinson-lab
+Anczukow Lab	anczukow-lab
+Verhaak Lab	verhaak-lab
+Robinson Lab	robinson-lab
+Lu Lab	lu-lab
+Li Lab	li-lab
+Lau Lab	lau-lab
+Microbial Genomic Services	mbiomecore
+Tewhey Lab	tewhey-lab
+Ke Lab	ke-lab
+Ruan Lab	ruan-lab
+Frankel Lab	genres
+Naggert Lab	nishina-lab
+Johnson Lab	johnson-lab
+Peters Lab	peters-data
+Rosenthal Lab	rosenthal-lab
+Beck Lab	beck-lab
+Howell Lab	howell-lab
+Korstanje Lab	korstanje-lab
+Palucka Lab	palucka-lab
+Sundberg Lab	sundberg-lab
+Churchill Lab	jaxchurchill
+John Lab	john-lab
+Murray Lab	murray-lab
+Banchereau Lab	banchereaulab
+Genome Technologies	genometech
+Paigen Lab	paigen_lab
+Chang Lab	chang-lab
+Cox Lab	cox-lab
+Chesler Lab	chesler-lab
+Pera Lab	pera-lab
+Zhang Lab	zhang-lab
+Baker Lab	baker-lab
+Tarchini Lab	DNF
+Ringwald Lab	mgi
+Carter Lab	carter-6143,carter-niagads,carter-rosmap,carter-sage,carter_secure,cartertcga,jaxcarter
+Ackerman Lab	genres
+Harrison Lab	DNF
+Leiter Lab	genres
+Roopenian Lab	roopenian-lab
+Paigen Lab	paigen_lab
+Trowbridge Lab	trowbridge-lab
+Charles Lee Lab	ch-lee-lab
+Scientific Services	DNF
+Kumar Lab	kumarlab
+Serreze Lab	serreze-lab
+Bolcun-filas Lab	bolcun-filas-lab
+Blake Lab	mgi
+Diagnostic Services	DNF
+Shultz Lab	shultz-lab
+Handel Lab	handel-lab
+Nishina Lab	nishina-lab
+Burgess Lab	burgess-lab
+Clinical Laboratory	clinical-data,clinical-reference-data,clinical-seqdata
+Ren Lab	ren-lab
+Center for Biometric Analysis	adams-lab
+JAX Genomic Education	jax-edu
+Lee Lab	DNF
+Ed Liu Lab	liulab
+Kaczorowski Lab	kaczorowski-lab
+Dumont Lab	dumont-lab
+O'Connell Lab	oconnk
+Braun Lab	braun-lab
+Laubenbacher Lab	laubenbacher-lab
+Genetic Resource Science	genres
+Wei Lab	wei-lab
+Microbiome Core	mbiomecore
+Single Cell Biology	robson-lab
