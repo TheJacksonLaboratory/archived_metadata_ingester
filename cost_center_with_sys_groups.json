@@ -1,0 +1,767 @@
+[
+    {
+        "cc_key": 45,
+        "cc_name": "Ackerman Lab",
+        "email": "susan.ackerman@jax.org",
+        "firstname": "Susan",
+        "surname": "Ackerman",
+        "userid": "sla",
+        "system_group": "genres"
+    },
+    {
+        "cc_key": 72,
+        "cc_name": "Microbial Genomic Services",
+        "email": "Mark.Adams@jax.org",
+        "firstname": "Mark",
+        "surname": "Adams",
+        "userid": "adamsm",
+        "system_group": "mbiomecore"
+    },
+    {
+        "cc_key": 85,
+        "cc_name": "Microbiome Core",
+        "email": "Mark.Adams@jax.org",
+        "firstname": "Mark",
+        "surname": "Adams - Microbiome",
+        "userid": "adamsm-Microbiome",
+        "system_group": "mbiomecore"
+    },
+    {
+        "cc_key": 15,
+        "cc_name": "Anczukow Lab",
+        "email": "Olga.Anczukow@jax.org",
+        "firstname": "Olga",
+        "surname": "Anczukow",
+        "userid": "anczuo",
+        "system_group": "anczukow-lab"
+    },
+    {
+        "cc_key": 42,
+        "cc_name": "Baker Lab",
+        "email": "Christopher.Baker@jax.org",
+        "firstname": "Christopher",
+        "surname": "Baker",
+        "userid": "clbaker",
+        "system_group": "baker-lab"
+    },
+    {
+        "cc_key": 24,
+        "cc_name": "Banchereau Lab",
+        "email": "jacques.banchereau@jax.org",
+        "firstname": "Jacques",
+        "surname": "Banchereau",
+        "userid": "jbancher",
+        "system_group": "banchereaulab"
+    },
+    {
+        "cc_key": 78,
+        "cc_name": "JAX Genomic Education",
+        "email": "William.Barter@jax.org",
+        "firstname": "William",
+        "surname": "Barter",
+        "userid": "wkb",
+        "system_group": "jax-edu"
+    },
+    {
+        "cc_key": 11,
+        "cc_name": "Beck Lab",
+        "email": "christine.beck@jax.org",
+        "firstname": "Christine",
+        "surname": "Beck",
+        "userid": "beckc",
+        "system_group": "beck-lab"
+    },
+    {
+        "cc_key": 50,
+        "cc_name": "Blake Lab",
+        "email": "judith.blake@jax.org",
+        "firstname": "Judith",
+        "surname": "Blake",
+        "userid": "jblake",
+        "system_group": "mgi"
+    },
+    {
+        "cc_key": 37,
+        "cc_name": "Bolcun-filas Lab",
+        "email": "Ewelina.Bolcun-filas@jax.org",
+        "firstname": "Ewelina",
+        "surname": "Bolcun-filas",
+        "userid": "ewelina",
+        "system_group": "bolcun-filas-lab"
+    },
+    {
+        "cc_key": 58,
+        "cc_name": "Braun Lab",
+        "email": "bob.braun@jax.org",
+        "firstname": "Bob",
+        "surname": "Braun",
+        "userid": "braun",
+        "system_group": "braun-lab"
+    },
+    {
+        "cc_key": 76,
+        "cc_name": "Genetic Engineering Technologies",
+        "email": "Bill.Buaas@jax.org",
+        "firstname": "Bill",
+        "surname": "Buaas",
+        "userid": "bbuaas",
+        "system_group": "get-lab"
+    },
+    {
+        "cc_key": 68,
+        "cc_name": "Bult Lab",
+        "email": "carol.bult@jax.org",
+        "firstname": "Carol",
+        "surname": "Bult",
+        "userid": "cjb",
+        "system_group": "bult-lab"
+    },
+    {
+        "cc_key": 43,
+        "cc_name": "Burgess Lab",
+        "email": "robert.burgess@jax.org",
+        "firstname": "Robert",
+        "surname": "Burgess",
+        "userid": "rburgess",
+        "system_group": "burgess-lab"
+    },
+    {
+        "cc_key": 8,
+        "cc_name": "Carter Lab",
+        "email": "Gregory.Carter@jax.org",
+        "firstname": "Gregory",
+        "surname": "Carter",
+        "userid": "gwc",
+        "system_group": "jaxcarter"
+    },
+    {
+        "cc_key": 28,
+        "cc_name": "Chang Lab",
+        "email": "Lucas.Chang@jax.org",
+        "firstname": "Lucas",
+        "surname": "Chang",
+        "userid": "changl",
+        "system_group": "chang-lab"
+    },
+    {
+        "cc_key": 21,
+        "cc_name": "Cheng Lab",
+        "email": "Albert.Cheng@jax.org",
+        "firstname": "Albert",
+        "surname": "Cheng",
+        "userid": "wcheng",
+        "system_group": "cheng-lab"
+    },
+    {
+        "cc_key": 46,
+        "cc_name": "Chesler Lab",
+        "email": "Elissa.Chesler@jax.org",
+        "firstname": "Elissa",
+        "surname": "Chesler",
+        "userid": "echesler",
+        "system_group": "chesler-lab"
+    },
+    {
+        "cc_key": 27,
+        "cc_name": "Chuang Lab",
+        "email": "Jeff.Chuang@jax.org",
+        "firstname": "Jeff",
+        "surname": "Chuang",
+        "userid": "jchuang",
+        "system_group": "chuanglab"
+    },
+    {
+        "cc_key": 53,
+        "cc_name": "Churchill Lab",
+        "email": "gary.churchill@jax.org",
+        "firstname": "Gary",
+        "surname": "Churchill",
+        "userid": "garyc",
+        "system_group": "jaxchurchill"
+    },
+    {
+        "cc_key": 47,
+        "cc_name": "Cox Lab",
+        "email": "greg.cox@jax.org",
+        "firstname": "Greg",
+        "surname": "Cox",
+        "userid": "gac",
+        "system_group": "cox-lab"
+    },
+    {
+        "cc_key": 33,
+        "cc_name": "Dumont Lab",
+        "email": "Beth.Dumont@jax.org",
+        "firstname": "Beth",
+        "surname": "Dumont",
+        "userid": "dumonb",
+        "system_group": "dumont-lab"
+    },
+    {
+        "cc_key": 79,
+        "cc_name": "Diagnostic Services",
+        "email": "jim.fahey@jax.org",
+        "firstname": "Jim",
+        "surname": "Fahey",
+        "userid": "jfahey",
+        "system_group": "DNF"
+    },
+    {
+        "cc_key": 67,
+        "cc_name": "Frankel Lab",
+        "email": "wayne.frankel@jax.org",
+        "firstname": "Wayne",
+        "surname": "Frankel",
+        "userid": "wnf",
+        "system_group": "genres"
+    },
+    {
+        "cc_key": 51,
+        "cc_name": "Handel Lab",
+        "email": "maryann.handel@jax.org",
+        "firstname": "Mary Ann",
+        "surname": "Handel",
+        "userid": "mahandel",
+        "system_group": "handel-lab"
+    },
+    {
+        "cc_key": 48,
+        "cc_name": "Harrison Lab",
+        "email": "david.harrison@jax.org",
+        "firstname": "David",
+        "surname": "Harrison",
+        "userid": "deh",
+        "system_group": "DNF"
+    },
+    {
+        "cc_key": 16,
+        "cc_name": "Hinson Lab",
+        "email": "Travis.Hinson@jax.org",
+        "firstname": "Travis",
+        "surname": "Hinson",
+        "userid": "thinson",
+        "system_group": "hinson-lab"
+    },
+    {
+        "cc_key": 59,
+        "cc_name": "Howell Lab",
+        "email": "gareth.howell@jax.org",
+        "firstname": "Gareth",
+        "surname": "Howell",
+        "userid": "ghowell",
+        "system_group": "howell-lab"
+    },
+    {
+        "cc_key": 60,
+        "cc_name": "John Lab",
+        "email": "simon.john@jax.org",
+        "firstname": "Simon",
+        "surname": "John",
+        "userid": "swmj",
+        "system_group": "john-lab"
+    },
+    {
+        "cc_key": 62,
+        "cc_name": "Johnson Lab",
+        "email": "ken.johnson@jax.org",
+        "firstname": "Ken",
+        "surname": "Johnson",
+        "userid": "krj",
+        "system_group": "johnson-lab"
+    },
+    {
+        "cc_key": 34,
+        "cc_name": "Kaczorowski Lab",
+        "email": "Catherine.Kaczorowski@jax.org",
+        "firstname": "Catherine",
+        "surname": "Kaczorowski",
+        "userid": "kaczoc",
+        "system_group": "kaczorowski-lab"
+    },
+    {
+        "cc_key": 3,
+        "cc_name": "Computational Sciences",
+        "email": "Krishna.Karuturi@jax.org",
+        "firstname": "Krishna",
+        "surname": "Karuturi",
+        "userid": "karuturi",
+        "system_group": "compsci"
+    },
+    {
+        "cc_key": 29,
+        "cc_name": "Ke Lab",
+        "email": "Shengdong.Ke@jax.org",
+        "firstname": "Shengdong",
+        "surname": "Ke",
+        "userid": "kes",
+        "system_group": "ke-lab"
+    },
+    {
+        "cc_key": 56,
+        "cc_name": "Korstanje Lab",
+        "email": "ron.korstanje@jax.org",
+        "firstname": "Ron",
+        "surname": "Korstanje",
+        "userid": "rkorstan",
+        "system_group": "korstanje-lab"
+    },
+    {
+        "cc_key": 7,
+        "cc_name": "Kumar Lab",
+        "email": "Vivek.Kumar@jax.org",
+        "firstname": "Vivek",
+        "surname": "Kumar",
+        "userid": "vkumar",
+        "system_group": "kumarlab"
+    },
+    {
+        "cc_key": 12,
+        "cc_name": "Lau Lab",
+        "email": "Ching.Lau@jax.org",
+        "firstname": "Ching",
+        "surname": "Lau",
+        "userid": "lauc",
+        "system_group": "lau-lab"
+    },
+    {
+        "cc_key": 17,
+        "cc_name": "Laubenbacher Lab",
+        "email": "Reinhard.Laubenbacher@jax.org",
+        "firstname": "Reinhard",
+        "surname": "Laubenbacher",
+        "userid": "lauber",
+        "system_group": "laubenbacher-lab"
+    },
+    {
+        "cc_key": 69,
+        "cc_name": "Charles Lee Lab",
+        "email": "charles.lee@jax.org",
+        "firstname": "Charles",
+        "surname": "Lee",
+        "userid": "clee",
+        "system_group": "ch-lee-lab"
+    },
+    {
+        "cc_key": 10,
+        "cc_name": "Lee Lab",
+        "email": "Se-jin.Lee@jax.org",
+        "firstname": "Se-jin",
+        "surname": "Lee",
+        "userid": "lees",
+        "system_group": "DNF"
+    },
+    {
+        "cc_key": 54,
+        "cc_name": "Leiter Lab",
+        "email": "ed.leiter@jax.org",
+        "firstname": "Edward",
+        "surname": "Leiter",
+        "userid": "ehl",
+        "system_group": "genres"
+    },
+    {
+        "cc_key": 13,
+        "cc_name": "Li Lab",
+        "email": "Sheng.Li@jax.org",
+        "firstname": "Sheng",
+        "surname": "Li",
+        "userid": "lis",
+        "system_group": "li-lab"
+    },
+    {
+        "cc_key": 74,
+        "cc_name": "Ed Liu Lab",
+        "email": "Francesca.Menghi@jax.org",
+        "firstname": "Ed",
+        "surname": "Liu",
+        "userid": "eliu",
+        "system_group": "liulab"
+    },
+    {
+        "cc_key": 35,
+        "cc_name": "Lu Lab",
+        "email": "Mingyang.Lu@jax.org",
+        "firstname": "Mingyang",
+        "surname": "Lu",
+        "userid": "lum",
+        "system_group": "lu-lab"
+    },
+    {
+        "cc_key": 41,
+        "cc_name": "Munger Lab",
+        "email": "Steven.Munger@jax.org",
+        "firstname": "Steven",
+        "surname": "Munger",
+        "userid": "scm",
+        "system_group": "mungerlab"
+    },
+    {
+        "cc_key": 83,
+        "cc_name": "Murray Lab",
+        "email": "steve.murray@jax.org",
+        "firstname": "Steve",
+        "surname": "Murray",
+        "userid": "smurray",
+        "system_group": "murray-lab"
+    },
+    {
+        "cc_key": 64,
+        "cc_name": "Naggert Lab",
+        "email": "juergen.naggert@jax.org",
+        "firstname": "Juergen",
+        "surname": "Naggert",
+        "userid": "jkn",
+        "system_group": "nishina-lab"
+    },
+    {
+        "cc_key": 57,
+        "cc_name": "Nishina Lab",
+        "email": "patsy.nishina@jax.org",
+        "firstname": "Patsy",
+        "surname": "Nishina",
+        "userid": "pmn",
+        "system_group": "nishina-lab"
+    },
+    {
+        "cc_key": 31,
+        "cc_name": "O'Connell Lab",
+        "email": "Kristen.O'Connell@jax.org",
+        "firstname": "Kristen",
+        "surname": "O'Connell",
+        "userid": "oconnk",
+        "system_group": "oconnk"
+    },
+    {
+        "cc_key": 18,
+        "cc_name": "Oh Lab",
+        "email": "Julia.Oh@jax.org",
+        "firstname": "Julia",
+        "surname": "Oh",
+        "userid": "joh",
+        "system_group": "ohlab"
+    },
+    {
+        "cc_key": 26,
+        "cc_name": "Ouyang Lab",
+        "email": "Zhengqing.Ouyang@jax.org",
+        "firstname": "Zhengqing",
+        "surname": "Ouyang",
+        "userid": "zouyang",
+        "system_group": "ouyang-lab"
+    },
+    {
+        "cc_key": 63,
+        "cc_name": "Paigen Lab",
+        "email": "ken.paigen@jax.org",
+        "firstname": "Ken",
+        "surname": "Paigen",
+        "userid": "ken",
+        "system_group": "paigen_lab"
+    },
+    {
+        "cc_key": 66,
+        "cc_name": "Paigen Lab",
+        "email": "bev.paigen@jax.org",
+        "firstname": "Beverly",
+        "surname": "Paigen",
+        "userid": "bjp",
+        "system_group": "paigen_lab"
+    },
+    {
+        "cc_key": 22,
+        "cc_name": "Palucka Lab",
+        "email": "Karolina.Palucka@jax.org",
+        "firstname": "Karolina",
+        "surname": "Palucka",
+        "userid": "akp",
+        "system_group": "palucka-lab"
+    },
+    {
+        "cc_key": 32,
+        "cc_name": "Pera Lab",
+        "email": "Martin.Pera@jax.org",
+        "firstname": "Martin",
+        "surname": "Pera",
+        "userid": "peram",
+        "system_group": "pera-lab"
+    },
+    {
+        "cc_key": 61,
+        "cc_name": "Peters Lab",
+        "email": "Luanne.Peters@jax.org",
+        "firstname": "Luanne",
+        "surname": "Peters",
+        "userid": "luanne",
+        "system_group": "peters-data"
+    },
+    {
+        "cc_key": 75,
+        "cc_name": "Clinical Laboratory",
+        "email": "Honey.Reddi@jax.org",
+        "firstname": "Honey",
+        "surname": "Reddi",
+        "userid": "reddih",
+        "system_group": "clinical-data"
+    },
+    {
+        "cc_key": 82,
+        "cc_name": "Reinholdt Lab",
+        "email": "laura.reinholdt@jax.org",
+        "firstname": "Laura",
+        "surname": "Reinholdt",
+        "userid": "lgr",
+        "system_group": "reinholdt-lab"
+    },
+    {
+        "cc_key": 73,
+        "cc_name": "Genetic Resource Science",
+        "email": "laura.reinholdt@jax.org",
+        "firstname": "Laura",
+        "surname": "Reinholdt - GRS",
+        "userid": "lgr-GRS",
+        "system_group": "genres"
+    },
+    {
+        "cc_key": 36,
+        "cc_name": "Ren Lab",
+        "email": "Gary.Ren@jax.org",
+        "firstname": "Gary",
+        "surname": "Ren",
+        "userid": "reng",
+        "system_group": "ren-lab"
+    },
+    {
+        "cc_key": 39,
+        "cc_name": "Ringwald Lab",
+        "email": "Martin.Ringwald@jax.org",
+        "firstname": "Martin",
+        "surname": "Ringwald",
+        "userid": "ringwald",
+        "system_group": "mgi"
+    },
+    {
+        "cc_key": 14,
+        "cc_name": "Robinson Lab",
+        "email": "Peter.Robinson@jax.org",
+        "firstname": "Peter",
+        "surname": "Robinson",
+        "userid": "robinp",
+        "system_group": "robinson-lab"
+    },
+    {
+        "cc_key": 87,
+        "cc_name": "Robson Lab",
+        "email": "Paul.Robson@jax.org",
+        "firstname": "Paul",
+        "surname": "Robson",
+        "userid": "probson",
+        "system_group": "robson-lab"
+    },
+    {
+        "cc_key": 71,
+        "cc_name": "Single Cell Biology",
+        "email": "Paul.Robson@jax.org",
+        "firstname": "Paul",
+        "surname": "Robson",
+        "userid": "probson",
+        "system_group": "robson-lab"
+    },
+    {
+        "cc_key": 86,
+        "cc_name": "Single Cell Biology",
+        "email": "Paul.Robson@jax.org",
+        "firstname": "Paul",
+        "surname": "Robson - SingleCell",
+        "userid": "probson-SingleCell",
+        "system_group": "robson-lab"
+    },
+    {
+        "cc_key": 65,
+        "cc_name": "Roopenian Lab",
+        "email": "derry.roopenian@jax.org",
+        "firstname": "Derry",
+        "surname": "Roopenian",
+        "userid": "dcr",
+        "system_group": "roopenian-lab"
+    },
+    {
+        "cc_key": 70,
+        "cc_name": "Rosenthal Lab",
+        "email": "nadia.rosenthal@jax.org",
+        "firstname": "Nadia",
+        "surname": "Rosenthal",
+        "userid": "nadiar",
+        "system_group": "rosenthal-lab"
+    },
+    {
+        "cc_key": 5,
+        "cc_name": "Ruan Lab",
+        "email": "yijun.ruan@jax.org",
+        "firstname": "Yijun",
+        "surname": "Ruan",
+        "userid": "yijun",
+        "system_group": "ruan-lab"
+    },
+    {
+        "cc_key": 80,
+        "cc_name": "Scientific Services",
+        "email": "Alan.Sawyer@jax.org",
+        "firstname": "Alan",
+        "surname": "Sawyer",
+        "userid": "asawyer",
+        "system_group": "DNF"
+    },
+    {
+        "cc_key": 55,
+        "cc_name": "Serreze Lab",
+        "email": "dave.serreze@jax.org",
+        "firstname": "Dave",
+        "surname": "Serreze",
+        "userid": "dvs",
+        "system_group": "serreze-lab"
+    },
+    {
+        "cc_key": 52,
+        "cc_name": "Shultz Lab",
+        "email": "lenny.shultz@jax.org",
+        "firstname": "Lenny",
+        "surname": "Shultz",
+        "userid": "lds",
+        "system_group": "shultz-lab"
+    },
+    {
+        "cc_key": 23,
+        "cc_name": "Stitzel Lab",
+        "email": "Michael.Stitzel@jax.org",
+        "firstname": "Michael",
+        "surname": "Stitzel",
+        "userid": "mstitzel",
+        "system_group": "stitzel-lab"
+    },
+    {
+        "cc_key": 49,
+        "cc_name": "Sundberg Lab",
+        "email": "john.sundberg@jax.org",
+        "firstname": "John",
+        "surname": "Sundberg",
+        "userid": "jps",
+        "system_group": "sundberg-lab"
+    },
+    {
+        "cc_key": 38,
+        "cc_name": "Tarchini Lab",
+        "email": "Basile.Tarchini@jax.org",
+        "firstname": "Basile",
+        "surname": "Tarchini",
+        "userid": "basile",
+        "system_group": "DNF"
+    },
+    {
+        "cc_key": 30,
+        "cc_name": "Tewhey Lab",
+        "email": "Ryan.Tewhey@jax.org",
+        "firstname": "Ryan",
+        "surname": "Tewhey",
+        "userid": "tewher",
+        "system_group": "tewhey-lab"
+    },
+    {
+        "cc_key": 40,
+        "cc_name": "Trowbridge Lab",
+        "email": "Jennifer.Trowbridge@jax.org",
+        "firstname": "Jennifer",
+        "surname": "Trowbridge",
+        "userid": "jtrow",
+        "system_group": "trowbridge-lab"
+    },
+    {
+        "cc_key": 25,
+        "cc_name": "Ucar Lab",
+        "email": "Duygu.Ucar@jax.org",
+        "firstname": "Duygu",
+        "surname": "Ucar",
+        "userid": "ducar",
+        "system_group": "ucar-lab"
+    },
+    {
+        "cc_key": 19,
+        "cc_name": "Unutmaz Lab",
+        "email": "Derya.Unutmaz@jax.org",
+        "firstname": "Derya",
+        "surname": "Unutmaz",
+        "userid": "dunutmaz",
+        "system_group": "unutmaz-lab"
+    },
+    {
+        "cc_key": 4,
+        "cc_name": "Verhaak Lab",
+        "email": "Roel.Verhaak@jax.org",
+        "firstname": "Roel",
+        "surname": "Verhaak",
+        "userid": "verhar",
+        "system_group": "verhaak-lab"
+    },
+    {
+        "cc_key": 6,
+        "cc_name": "Genome Technologies",
+        "email": "chia-lin.wei@jax.org",
+        "firstname": "Chia-Lin",
+        "surname": "Wei",
+        "userid": "clwei",
+        "system_group": "genometech"
+    },
+    {
+        "cc_key": 84,
+        "cc_name": "Wei Lab",
+        "email": "chia-lin.wei@jax.org",
+        "firstname": "Chia-Lin",
+        "surname": "Wei - lab",
+        "userid": "clwei-lab",
+        "system_group": "wei-lab"
+    },
+    {
+        "cc_key": 2,
+        "cc_name": "Weinstock Lab",
+        "email": "George.Weinstock@jax.org",
+        "firstname": "George",
+        "surname": "Weinstock",
+        "userid": "gweinstock",
+        "system_group": "weinstock-lab"
+    },
+    {
+        "cc_key": 81,
+        "cc_name": "Center for Biometric Analysis",
+        "email": "Jacqui.White@jax.org",
+        "firstname": "Jacqui",
+        "surname": "White",
+        "userid": "whitej",
+        "system_group": "adams-lab"
+    },
+    {
+        "cc_key": 20,
+        "cc_name": "Williams Lab",
+        "email": "Adam.Williams@jax.org",
+        "firstname": "Adam",
+        "surname": "Williams",
+        "userid": "azw",
+        "system_group": "williams-lab"
+    },
+    {
+        "cc_key": 1,
+        "cc_name": "Information Technology",
+        "email": "Eduardo.Zaborowski@jax.org",
+        "firstname": "Eduardo",
+        "surname": "Zaborowski",
+        "userid": "ezaborow",
+        "system_group": "researchit"
+    },
+    {
+        "cc_key": 44,
+        "cc_name": "Zhang Lab",
+        "email": "Zhongwei.Zhang@jax.org",
+        "firstname": "Zhong-wei",
+        "surname": "Zhang",
+        "userid": "zwzhang",
+        "system_group": "zhang-lab"
+    }
+]

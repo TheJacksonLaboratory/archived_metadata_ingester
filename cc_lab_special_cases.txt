@@ -3,7 +3,7 @@
 # to their respective system groups, as found by various efforts.
 #
 Center for Biometric Analysis	adams-lab
-Clinical Laboratory	clinical-data,clinical-reference-data,clinical-seqdata
+Clinical Laboratory	clinical-data
 Computational Sciences	compsci
 Diagnostic Services	DNF
 Genetic Engineering Technologies	get-lab
@@ -37,8 +37,9 @@ Tarchini Lab	DNF
 #Martin Ringwald is part of mgi
 Ringwald Lab	mgi
 
-# Greg Carter has a ton of groups
-Carter Lab	carter-6143,carter-niagads,carter-rosmap,carter-sage,carter_secure,cartertcga,jaxcarter
+# Greg Carter is in a ton of groups, but we'll just use jaxcarter for now
+# Carter Lab	carter-6143,carter-niagads,carter-rosmap,carter-sage,carter_secure,cartertcga,jaxcarter
+Carter Lab	jaxcarter
 
 # Susan Ackerman is also part of JAX Mammalian Genetics Research
 Ackerman Lab	genres
