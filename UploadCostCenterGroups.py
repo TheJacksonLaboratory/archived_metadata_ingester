@@ -65,7 +65,7 @@ class UploadCostCenterGroups:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Ingest metadata from the archive into mongodb", prog="ArchivedMetadataIngester.py")
+    parser = argparse.ArgumentParser(description="Upload cost center entrie with their system groups into mongodb", prog="UploadCostCenterGroups.py")
     parser.add_argument("-m", "--mode", help="prod or dev", default="dev", type=str)
     args = parser.parse_args()
 
