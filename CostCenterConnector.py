@@ -13,30 +13,28 @@ import ssl
 class CostCenterConnector:
     def __init__(self):
 
+        # Read config and password files
         self.config = configparser.ConfigParser()
         self.config.read("config.cfg")
 
         self.secrets = configparser.ConfigParser()
         self.secrets.read("secrets.cfg")
-        '''
-        self.cost_center_json = requests.get(self.config["cost_center"]["cc_url"],
-            headers={'Authorization':   self.secrets["cost_center"]["api_key_name"]:
-                self.secrets["cost_center"]["api_key_val"]  } )
-        '''
-        '''
-        if (not os.environ.get('PYTHONHTTPSVERIFY', '') and
-            getattr(ssl, '_create_unverified_context', None)):
-                ssl._create_default_https_context = ssl._create_unverified_context
-        '''
 
+        # save variables for readability
         cc_url = self.config["cost_center"]["cc_url"]
         api_key_val = self.secrets["cost_center"]["api_key_val"]
 
+        # Send a request to the cost center, store the response
         self.cost_center_response = requests.get(cc_url,
             headers = {'API-KEY': api_key_val}, verify = False )
 
+
+    # Return the cost center response as json
+    def get_all(self):
+        return self.cost_center_response.json()
+
     def dump_all(self):
-        print(json.dumps(self.cost_center_response.json(), indent=4, sort_keys=True))
+        print(json.dumps(self.get_all(), indent=4, sort_keys=True))
 
 if __name__ == "__main__":
     ccc = CostCenterConnector()

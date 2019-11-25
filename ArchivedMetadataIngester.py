@@ -94,7 +94,7 @@ class ArchivedMetedataIngester:
                 print("Archived " + json_filename, flush=True)
             else:
                 sys.stderr.write(
-                    f"metadata {json_filename} could not be insert, skipping.\n"
+                    f"metadata {json_filename} could not be inserted, skipping.\n"
                 )
                 sys.stderr.flush()
                 return
