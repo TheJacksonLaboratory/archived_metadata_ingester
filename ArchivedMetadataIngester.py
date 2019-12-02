@@ -45,7 +45,6 @@ class ArchivedMetedataIngester:
         
 
         self.collection.create_index([(self.index_key, pymongo.ASCENDING)], unique=True)
-        self.patch_list = [ "/archive/GT/2019/BethDumont_Lab_BH/20190708_19-dumont-002/gt-metadata.json" ]
 
         self.MAX_JSON_DOC_SIZE = int(mdb["max_json_doc_size"])
 
@@ -214,6 +213,5 @@ if __name__ == "__main__":
 
     ami = ArchivedMetedataIngester(args.mode)
     ami.crawl_archive_dirs()
-    #ami.just_patch()
 
 
