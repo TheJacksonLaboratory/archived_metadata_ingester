@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Upload cost centers with system groupos to mongodb
+# Upload cost centers to mongodb, with system groups added
 
 import argparse
 import configparser
@@ -55,6 +55,11 @@ class UploadCostCenterGroups:
                         f"cost center entry {cc_name} could not be inserted, skipping.\n"
                     )
                     sys.stderr.flush()
+            except pymongo.errors.DuplicateKeyError:
+                # Document already exists, need to do an update
+                result = self.collection.update_one({"cc_key": cc_entry["cc_key"]},
+                     { "$set": { "system_groups": cc_entry["system_groups"] } } )
+                assert(result.acknowledged)
 
             except Exception as e:
                 sys.stderr.write(
@@ -65,7 +70,7 @@ class UploadCostCenterGroups:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Upload cost center entrie with their system groups into mongodb", prog="UploadCostCenterGroups.py")
+    parser = argparse.ArgumentParser(description="Upload cost center entries with their system groups into mongodb", prog="UploadCostCenterGroups.py")
     parser.add_argument("-m", "--mode", help="prod or dev", default="dev", type=str)
     args = parser.parse_args()
 

@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 
-# Create a mapping of cost center and PI names to their system groups
+# Create a mapping of cost center and PI names to their system groups, 
+# and print it as JSON.
 
 import json
 import CostCenterConnector
 
+# Given a list of cost centers and a manually curated list of special cases for 
+# for group, try to match at least one system_group to every cost center.
 class MapCostCenterToSystemGroups:
     def __init__(self):
         # Read the special cases file, and create a dict of special-case lab cost center entries 
@@ -25,9 +28,8 @@ class MapCostCenterToSystemGroups:
                 # The first fields is the cost center name. The second is the system groups, which can be a 
                 # comma-delimited list
                 cc_name = fields[0]
-                # For now, we're only allowing a single entry for the groups
-                # sys_groups = fields[1].split(',')
-                sys_groups = fields[1]
+                # sys_groups can be a comma-delimited list
+                sys_groups = fields[1].split(',')
                 self.lab_special_case_names[cc_name] = sys_groups
 
         # Read allpossible groups into a set. 
@@ -44,23 +46,35 @@ class MapCostCenterToSystemGroups:
                     continue
                 self.all_sys_groups.add(line)
 
-    # 
+    # Return all cost centers with system groups added.
     def get_cost_centers_with_groups(self):
         ccc = CostCenterConnector.CostCenterConnector()
         cc_dump = ccc.get_all()
 
         for cc_entry in cc_dump:
             cc_name = cc_entry["cc_name"]
-            sys_group = self.get_sys_group_for_cost_center(cc_name)
-            cc_entry["system_group"] = sys_group
-
+            sys_groups = self.get_sys_groups_for_cost_center(cc_name)
+            cc_entry["system_groups"] = sys_groups
+            # Enforce that all values are lowercase. This will make later queries more efficient than trying
+            # to a case insensitive/regex search. 
+            for key, value in cc_entry.items():
+                if type(value) is not str:
+                    continue
+                cc_entry[key] = value.lower()
+            
         # Sort the list of dicts by surname
         return sorted(cc_dump, key = lambda i : i["surname"])
 
-    def get_sys_group_for_cost_center(self, cc_name):
+    # Try to determine what the system group is for a cost center.
+    # Either read it from the list of special cases, or try to construct
+    # it from the cost center name.
+    def get_sys_groups_for_cost_center(self, cc_name):
             if cc_name in self.lab_special_case_names:
-                sys_group = self.lab_special_case_names[cc_name]
-                return sys_group
+                sys_groups = self.lab_special_case_names[cc_name]
+
+                # The special cases are already read in as a list in the initializer method,
+                # so do not wrap them as a list again here, b/c we do not want a list of lists.
+                return sys_groups
             else:
                 # for most centers whose name ends with "Lab", the system group is just the 
                 # name in lowercase, with the space replaced by a hyphen.
@@ -75,11 +89,12 @@ class MapCostCenterToSystemGroups:
                         print("FAILED: " + sys_group + " is not in all_sys_groups")
                         return "DNF"
                     else:
-                      return sys_group
+                      return [ sys_group ]
                 else:
-                    return sys_group
+                    return [ sys_group ]
 
 if __name__ == "__main__":
+    # Get the cost center groups, add system groups, print as JSON.
     map_cc2groups = MapCostCenterToSystemGroups()
     print(json.dumps(map_cc2groups.get_cost_centers_with_groups(), indent=4))
 

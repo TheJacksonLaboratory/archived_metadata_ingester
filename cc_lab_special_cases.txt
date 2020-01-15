@@ -53,11 +53,12 @@ Leiter Lab	genres
 # Charles Lee's lab is named ch-lee-lab
 Charles Lee Lab	ch-lee-lab
 
+# Se-Jin Lee's lab is sj-lee-lab on the system, but it's just called Lee Lab
+# in the cost center
+Lee Lab	sj-lee-lab
+
 # Judith Blake is part of mgi
 Blake Lab	mgi
-
-# Cannot find a group for Se-jin Lee's lab
-Lee Lab	DNF
 
 # Ed Liu Lab
 Ed Liu Lab	liulab
