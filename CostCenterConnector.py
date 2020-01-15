@@ -1,8 +1,8 @@
 #!/bin/usr/env python
 
 # The cost center is used by the HPC admins to bill the various labs and groups
-# at JAX. It is a definitive listing of PIs' long namesand userids, which we'll 
-# need to map some documents to system groups (likely done elsewhere).
+# at JAX. It is a definitive listing of PIs' long names and userids, as well as
+# their email addresses and the long name of their lab or department.
 
 import configparser
 import json

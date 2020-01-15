@@ -10,7 +10,7 @@ import sys
 
 # Find all JSONs beneath specified archive directories, and ingest them into MongoDB.
 
-class ArchivedMetedataIngester:
+class ArchivedMetadataIngester:
     def __init__(self, mode : str = "dev"):
         # Load config and secrets file
         self.config = configparser.ConfigParser()
@@ -211,7 +211,7 @@ if __name__ == "__main__":
     parser.add_argument("-m", "--mode", help="prod or dev", default="dev", type=str)
     args = parser.parse_args()
 
-    ami = ArchivedMetedataIngester(args.mode)
+    ami = ArchivedMetadataIngester(args.mode)
     ami.crawl_archive_dirs()
 
 
