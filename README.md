@@ -16,14 +16,4 @@ optional arguments:
       # Specify development or production database.
 
       # Default is dev
-      
-      
-COST CENTER CONNECTOR
-
-Get a dump of Labs and groups from our sys admin team's cost center database
-
-TO RUN
-
-$ python CostCenterConnector.py
-
 
