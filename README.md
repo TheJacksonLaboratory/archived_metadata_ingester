@@ -1,4 +1,5 @@
 # archived_metadata_ingester
+## THIS REPO IS NOW DEPRECATED. USE THE [archive_crawler](https://github.com/TheJacksonLaboratory/archive_crawler) INSTEAD.
 Seeks json files and ingests their contents into mongodb, with filters and adjustments as needed
 
 TO RUN
